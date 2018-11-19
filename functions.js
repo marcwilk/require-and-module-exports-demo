@@ -10,5 +10,10 @@ function subtract(x, y) {
   return x - y
 }
 
+module.exports = {
+  sayHello,
+	add,
+	subtract
+}
 
 //export the above functions here
